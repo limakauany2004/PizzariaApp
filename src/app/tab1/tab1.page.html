@@ -1,17 +1,85 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+  <ion-toolbar color="danger">
+    <ion-title> 
+      Lanches
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-item>
+   
+    <ion-label color="dark">Cardápio</ion-label>
+  </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/download.jpg">
+    </ion-thumbnail>
+    <ion-label> X-Reverso
+    <h4>Maionese Hambúrguer, </h4>
+    <h4>Alface,Tomate,Presunto</h4>
+    <h4>Tomate,Mussarela</h4>
+  </ion-label>
+    <ion-badge color="danger">R$ 12,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/x-frango.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Mister Bug</h2>
+      <h4>Frago,Maionese,Tomate</h4>
+      <h4>Mussarela,Alface</h4>
+    </ion-label>
+    <ion-badge color="danger">R$ 16,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/bacon.jpg">
+    </ion-thumbnail>
+    <ion-label>Bacon Moth
+    <h4>Maionese,Hambúrguer</h4>
+      <h4>Mussarela,Alface</h4>
+        <h4>Tomate,Bacon</h4>
+  </ion-label>
+  <ion-badge color="danger">R$ 17,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/egg.jpg">
+    </ion-thumbnail>
+    <ion-label>X Plagg
+      <h4>Maionese, Hambúrgue,Mussarela</h4>
+      <h4>Presunto,Ovo,Tomate,Alface</h4>
+    </ion-label>
+    <ion-badge  color="danger">R$ 15,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/duplo.jpg">
+    </ion-thumbnail>
+    <ion-label>Lady Duplo
+      <h4>Mussarela,Maionese,Tomate </h4>
+      <h4>Alface,2Hambúrguer</h4>
+    </ion-label>
+    <ion-badge color="danger">R$ 13,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/tudoo.jpg">
+    </ion-thumbnail>
+    <ion-label>Cataclismo
+      <h4>Mussarela,Maionese,Tomate, </h4>
+      <h4>Alface,Hambúrguer</h4>
+      <h4>Milho,Ovo,Calabresa</h4>
+      <h4>Bacon,Batata Palha</h4>
+    </ion-label>
+    <ion-badge color="danger">R$ 20,00</ion-badge>
+  </ion-item>
 </ion-content>
